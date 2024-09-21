@@ -84,6 +84,15 @@ func (item *Item) NormalizeItem() error {
 					return errors.New("the max length of property value is 8192," + "value = " + v.(string))
 				}
 			case []string: //value in properties list MUST be string
+			case []interface{}:
+				for _, sv := range v.([]interface{}) {
+					switch sv.(type) {
+					case string:
+					default:
+						return errors.New("property value must be a string/int/float64/bool/time.Time/[]string," + "key = " + k)
+					}
+				}
+				//value in properties list MUST be string
 			case time.Time: //only support time.Time
 				item.Properties[k] = v.(time.Time).Format("2006-01-02 15:04:05.999")
 
