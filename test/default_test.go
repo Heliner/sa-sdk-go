@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/sensorsdata/sa-sdk-go"
+	sdk "github.com/Heliner/sa-sdk-go"
 )
 
 func TestDefaultConsumer(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sensorsdata/sa-sdk-go/structs"
+	"github.com/Heliner/sa-sdk-go/structs"
 )
 
 const (

@@ -3,7 +3,7 @@ package sensorsanalytics
 
 import (
 	"errors"
-	"github.com/sensorsdata/sa-sdk-go/utils"
+	"github.com/Heliner/sa-sdk-go/utils"
 )
 
 const (

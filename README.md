@@ -14,13 +14,13 @@ SensorsAnalytics SDK 是国内第一家开源商用版用户行为采集 SDK，�
 使用以下指令获取 `Sensors Analytics SDK `
 
 ```
-go get github.com/sensorsdata/sa-sdk-go
+go get github.com/Heliner/sa-sdk-go
 ```
 
 使用以下指令更新 `Sensors Analytics SDK `
 
 ```
-go get -u github.com/sensorsdata/sa-sdk-go
+go get -u github.com/Heliner/sa-sdk-go
 	
 ```
 
@@ -34,4 +34,4 @@ go get -u github.com/sensorsdata/sa-sdk-go
 | ------ | ------ | ------ |
 
 ## License
-[License 协议](https://github.com/sensorsdata/sa-sdk-go/blob/master/LICENSE.txt)
+[License 协议](https://github.com/Heliner/sa-sdk-go/blob/master/LICENSE.txt)

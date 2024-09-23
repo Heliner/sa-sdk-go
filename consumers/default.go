@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/sensorsdata/sa-sdk-go/structs"
+	"github.com/Heliner/sa-sdk-go/structs"
 )
 
 type DefaultConsumer struct {

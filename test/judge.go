@@ -20,7 +20,7 @@ package test
 import (
 	"bufio"
 	"encoding/json"
-	"github.com/sensorsdata/sa-sdk-go/structs"
+	"github.com/Heliner/sa-sdk-go/structs"
 	"io"
 	"os"
 )

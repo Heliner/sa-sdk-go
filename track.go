@@ -19,8 +19,8 @@ package sensorsanalytics
 
 import (
 	"fmt"
-	"github.com/sensorsdata/sa-sdk-go/structs"
-	"github.com/sensorsdata/sa-sdk-go/utils"
+	"github.com/Heliner/sa-sdk-go/structs"
+	"github.com/Heliner/sa-sdk-go/utils"
 	"math/rand"
 	"os"
 	"runtime"

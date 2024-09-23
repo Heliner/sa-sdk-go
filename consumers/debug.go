@@ -28,8 +28,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/sensorsdata/sa-sdk-go/structs"
-	"github.com/sensorsdata/sa-sdk-go/utils"
+	"github.com/Heliner/sa-sdk-go/structs"
+	"github.com/Heliner/sa-sdk-go/utils"
 )
 
 type DebugConsumer struct {
